@@ -1,7 +1,9 @@
 #task 1 fact
 n = int(input("Enter the value for factorial:"))
 sum = 1
-if n == 0:
+if n <0:
+    print("factorial is not possible for negative numbers")
+elif n == 0:
     print(n,"factorial is",1)
 else:
     for i in range(1,n+1):
